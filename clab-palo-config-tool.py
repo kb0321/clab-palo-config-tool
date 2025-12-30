@@ -1,8 +1,8 @@
 import argparse
 
-parser = argparse.ArgumentParser(description="PLACEHOLDER: Palo Alto config tool")
+parser = argparse.ArgumentParser(description="Save and load Palo Alto Networks device configurations in Containerlab environments")
 parser.add_argument(
-    "action", choices=["save", "load"], help="PLACEHOLDER: choose 'save' or 'load'"
+    "action", choices=["save", "load"], help="'save' to export device configurations, 'load' to import and apply saved configurations"
 )
 
 args = parser.parse_args()
